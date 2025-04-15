@@ -1,6 +1,6 @@
 # House Rental Application
 
-![StayEase](/public//stayease.png)
+![StayEase](/public//stayeasess.png)
 
 **StayEase** is a full-stack house rental platform built with **Next.js** and **TypeScript** that allows users to list, search, and book rental properties with ease.
 
