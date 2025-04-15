@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# House Rental Application
 
-## Getting Started
+![StayEase](/public//stayease.png)
 
-First, run the development server:
+**StayEase** is a full-stack house rental platform built with **Next.js** and **TypeScript** that allows users to list, search, and book rental properties with ease.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+You can view the project live here:
+[StayEase](https://stay-ease-eight.vercel.app)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Table of Contents
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Project-features](#project-features)
+- [Technologies](#technologies)
+- [References](#references)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🚀 Project features
 
-## Learn More
+### 👥 User Authentication & Authorization
 
-To learn more about Next.js, take a look at the following resources:
+- 🔐 Authentication with **Google** using **NextAuth.js**
+- 👮 Route protection based on user roles
+- 🙍 User profiles with ability to manage personal listings
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🏠 Property Management
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- 📝 Create, read, update, and delete property listings (CRUD)
+- 📷 Upload **multiple property images** using **Cloudinary**
+- 🔍 Advanced **search functionality** for listings
+- 🏷️ Property **bookmarking (save for later)**
 
-## Deploy on Vercel
+### 💬 Internal Messaging
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- ✉️ Send and receive internal messages between users
+- 🔔 Unread message **notifications**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 📷 Photo Gallery
+
+- 🖼️ Image gallery powered by **Photoswipe**
+
+### 🔧 Additional Functionalities
+
+- 📤 Share listings via social media with **React Share**
+- 🔥 Toast notifications with **React Toastify**
+- ⏳ Loading spinners with **React Spinners**
+- ❌ Custom **404 page**
+- 📱 **Responsive design** built with **Tailwind CSS**
+- ⚡ Optimized routing and performance with **Next.js App Router (Actions)**
+
+---
+
+## 🛠️ Technologies
+
+| Frontend     | Backend / Server | Other Tools & Libraries |
+| ------------ | ---------------- | ----------------------- |
+| Next.js      | MongoDB          | NextAuth.js             |
+| React        | Mongoose         | Cloudinary              |
+| TypeScript   |                  | React Icons             |
+| Tailwind CSS |                  | React Toastify          |
+|              |                  | React Spinners          |
+|              |                  | React Share             |
+|              |                  | Photoswipe              |
+
+---
+
+## References
+
+I built this project with the help of Brad Traversy's course: [Next.js From Scratch](https://www.udemy.com/course/nextjs-from-scratch)
